@@ -14,7 +14,7 @@ height= root.winfo_screenheight()
 root.geometry("%dx%d" % (width, height))
 
 #bg image
-bg = PhotoImage(file ="images/bg (6).png")
+bg = PhotoImage(file ="images/bg.png")
 
 #label for bg image
 bglabel = Label(root, image= bg)
